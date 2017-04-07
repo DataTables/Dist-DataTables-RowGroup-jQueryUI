@@ -1,0 +1,37 @@
+{
+    "name": "datatables.net-rowgroup-jqui",
+    "description": "RowGroup for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
+    "main": [
+        "css/rowGroup.jqueryui.css"
+    ],
+    "keywords": [
+        "row grouping",
+        "DataTables",
+        "jQuery",
+        "table",
+        "jQuery UI"
+    ],
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-jqui": ">=1.10.13",
+        "datatables.net-rowgroup": ">=1.0.0"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "authors": [
+        {
+            "name": "SpryMedia Ltd",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "homepage": "https://datatables.net",
+    "license": "MIT"
+}

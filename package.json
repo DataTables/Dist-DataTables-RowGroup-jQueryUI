@@ -1,0 +1,28 @@
+{
+    "name": "datatables.net-rowgroup-jqui",
+    "version": "1.0.0",
+    "description": "RowGroup for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
+    "files": [
+        "css/rowGroup.jqueryui.css"
+    ],
+    "keywords": [
+        "row grouping",
+        "DataTables",
+        "jQuery",
+        "table",
+        "jQuery UI"
+    ],
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-jqui": ">=1.10.13",
+        "datatables.net-rowgroup": ">=1.0.0"
+    },
+    "style": "css/rowGroup.jqueryui.css"
+}
