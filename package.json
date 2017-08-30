@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-rowgroup-jqui",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "RowGroup for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "css/rowGroup.jqueryui.css"
@@ -21,8 +21,8 @@
     },
     "dependencies": {
         "jquery": ">=1.7",
-        "datatables.net-jqui": ">=1.10.13",
-        "datatables.net-rowgroup": ">=1.0.0"
+        "datatables.net-jqui": "^1.10.15",
+        "datatables.net-rowgroup": "1.0.1"
     },
     "style": "css/rowGroup.jqueryui.css"
 }
