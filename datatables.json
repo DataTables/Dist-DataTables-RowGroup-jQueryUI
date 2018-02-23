@@ -3,7 +3,10 @@
         "css/rowGroup.jqueryui.css",
         "css/rowGroup.jqueryui.min.css"
     ],
-    "js": [],
+    "js": [
+        "js/rowGroup.jqueryui.js",
+        "js/rowGroup.jqueryui.min.js"
+    ],
     "src-repo": "http://github.com/DataTables/RowGroup",
     "last-sync": "dd8bff8631835b55a933a08e455912ecbbf33496",
     "last-tag": "1.0.2"

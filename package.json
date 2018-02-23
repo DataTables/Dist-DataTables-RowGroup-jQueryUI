@@ -3,7 +3,8 @@
     "version": "1.0.2",
     "description": "RowGroup for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "keywords": [
         "row grouping",
@@ -24,5 +25,6 @@
         "datatables.net-jqui": "^1.10.15",
         "datatables.net-rowgroup": "1.0.2"
     },
-    "style": "css/rowGroup.jqueryui.css"
+    "style": "css/rowGroup.jqueryui.css",
+    "main": "js/rowGroup.jqueryui.js"
 }
