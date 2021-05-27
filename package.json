@@ -1,30 +1,48 @@
 {
     "name": "datatables.net-rowgroup-jqui",
+    "description": "RowGroup for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "main": "js/rowGroup.jqueryui.js",
+    "style": "css/rowGroup.jqueryui.css",
     "version": "1.1.2",
-    "description": "RowGroup for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
-        "row grouping",
-        "DataTables",
+        "RowGroup",
+ "Row Grouping",
+        "jQuery UI",
+ "jQueryUI",
+        "Datatables",
         "jQuery",
         "table",
-        "jQuery UI"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-rowgroup": ">=1.1.2",
+        "datatables.net-jqui": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-jqui": "^1.10.15",
-        "datatables.net-rowgroup": "1.1.2"
-    },
-    "style": "css/rowGroup.jqueryui.css",
-    "main": "js/rowGroup.jqueryui.js"
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-RowGroup-jQueryUI.git"
+    }
 }
