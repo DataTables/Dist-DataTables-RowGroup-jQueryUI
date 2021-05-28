@@ -19,7 +19,7 @@ npm install datatables.net-rowgroup-jqui
 
 ```
 var $ = require( 'jquery' );
-var dt = require( 'datatables.net-rowgroup-jqui}' )( window, $ );
+var dt = require( 'datatables.net-rowgroup-jqui' )( window, $ );
 ```
 
 ### bower
