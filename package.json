@@ -3,6 +3,7 @@
     "description": "RowGroup for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/rowGroup.jqueryui.js",
     "style": "css/rowGroup.jqueryui.css",
+    "types": "./types/rowGroup.jQueryUI.d.ts",
     "version": "1.1.2",
     "files": [
         "css/**/*.css",
