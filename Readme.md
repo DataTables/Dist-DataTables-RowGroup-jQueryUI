@@ -1,6 +1,6 @@
 # RowGroup for DataTables with styling for [jQueryUI](http://jqueryui.com/)
 
-This package contains a built distribution of the [RowGroup extension](https://datatables.net/extensions/RowGroup) for [DataTables](https://datatables.net/) with styling for [jQueryUI](http://jqueryui.com/).
+This package contains a built distribution of the [RowGroup extension](https://datatables.net/extensions/rowgroup) for [DataTables](https://datatables.net/) with styling for [jQueryUI](http://jqueryui.com/).
 
 RowGroup adds the ability to easily group rows in a DataTable by a given data point. The grouping is shown as an inserted row either before or after the group.
 
