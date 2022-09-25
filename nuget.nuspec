@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <version>1.1.4</version>
+        <version>1.2.0</version>
         <id>datatables.net-rowgroup-jqui</id>
         <description>This is RowGroup for DataTables with styling for [jQueryUI](http://jqueryui.com/)</description>
         <repository type="git" url="https://github.com/DataTables/Dist-DataTables-RowGroup-jQueryUI.git"/>
@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>RowGroup  Row Grouping  jQuery UI  jQueryUI  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-rowgroup" version="1.1.4"/>
-            <dependency id="datatables.net-jqui" version="1.11.5"/>
+            <dependency id="datatables.net-rowgroup" version="1.2.0"/>
+            <dependency id="datatables.net-jqui" version="1.12.1"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>

@@ -1,5 +1,5 @@
 {
-    "version": "1.1.4",
+    "version": "1.2.0",
     "name": "datatables.net/datatables.net-rowgroup-jqui",
     "description": "RowGroup adds the ability to easily group rows in a DataTable by a given data point. The grouping is shown as an inserted row either before or after the group. This is RowGroup for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "support": {
@@ -28,7 +28,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-rowgroup": ">=1.1.4",
-        "datatables.net/datatables.net-jqui": ">=1.11.5"
+        "datatables.net/datatables.net-rowgroup": ">=1.2.0",
+        "datatables.net/datatables.net-jqui": ">=1.12.1"
     }
 }
