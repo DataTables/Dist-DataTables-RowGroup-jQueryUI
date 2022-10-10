@@ -2,12 +2,14 @@
     "name": "datatables.net-rowgroup-jqui",
     "description": "RowGroup for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/rowGroup.jqueryui.js",
+    "module": "js/rowGroup.jqueryui.mjs",
     "style": "css/rowGroup.jqueryui.css",
     "types": "./types/rowGroup.jQueryUI.d.ts",
     "version": "1.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
