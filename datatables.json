@@ -10,7 +10,8 @@
         "css/rowGroup.jqueryui.min.css"
     ],
     "types": [
-        "types/rowGroup.jQueryUI.d.ts"
+        "types/rowGroup.jQueryUI.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/RowGroup",
     "last-tag": "1.2.0"
