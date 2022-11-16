@@ -3,8 +3,8 @@
  */
 
 import $ from 'jquery';
-import DataTable from 'datatables.net-ju';
-import 'datatables.net-rowgroup';
+import DataTable from 'datatables.net-jqui';
+import RowGroup from 'datatables.net-rowgroup';
 
 
 
