@@ -8,5 +8,4 @@ import RowGroup from 'datatables.net-rowgroup';
 
 
 
-
 export default DataTable;
