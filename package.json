@@ -5,7 +5,7 @@
     "module": "js/rowGroup.jqueryui.mjs",
     "style": "css/rowGroup.jqueryui.css",
     "types": "./types/rowGroup.jqueryui.d.ts",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
