@@ -1,6 +1,6 @@
 # RowGroup for DataTables with styling for [jQueryUI](http://jqueryui.com/)
 
-This package contains a built distribution of the [RowGroup extension](https://datatables.net/extensions/rowgroup) for [DataTables](https://datatables.net/) with styling for [jQueryUI](http://jqueryui.com/).
+This is the distribution package for the [RowGroup extension](https://datatables.net/extensions/rowgroup) for [DataTables](https://datatables.net/) with styling for [jQueryUI](http://jqueryui.com/).
 
 RowGroup adds the ability to easily group rows in a DataTable by a given data point. The grouping is shown as an inserted row either before or after the group.
 
@@ -9,42 +9,37 @@ RowGroup adds the ability to easily group rows in a DataTable by a given data po
 
 ### Browser
 
-For inclusion of this library using a standard `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
+To use DataTables with a simple `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
 
 ### npm
 
+For installation via npm, yarn and other similar package managers, install this package with your package manager - e.g.:
+
 ```
+npm install datatables.net-jqui
 npm install datatables.net-rowgroup-jqui
 ```
 
-ES3 Syntax
-```
-var $ = require( 'jquery' );
-var dt = require( 'datatables.net-rowgroup-jqui' )( window, $ );
-```
+Then, to load and initialise the software in your code use:
 
-ES6 Syntax
 ```
+import DataTable from 'datatables.net-jqui';
 import 'datatables.net-rowgroup-jqui'
-```
 
-### bower
-
+new DataTable('#myTable', {
+    // initalisation options
+});
 ```
-bower install --save datatables.net-rowgroup-jqui
-```
-
 
 
 ## Documentation
 
-Full documentation and examples for RowGroup can be found [on the website](https://datatables.net/extensions/rowgroup).
+Full documentation and examples for RowGroup can be found [on the DataTables website](https://datatables.net/extensions/rowgroup).
 
 
 ## Bug / Support
 
 Support for DataTables is available through the [DataTables forums](//datatables.net/forums) and [commercial support options](//datatables.net/support) are available.
-
 
 ### Contributing
 
