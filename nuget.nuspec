@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>RowGroup  Row Grouping  jQuery UI  jQueryUI  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-rowgroup" version="1.2.0"/>
-            <dependency id="datatables.net-jqui" version="1.12.1"/>
+            <dependency id="datatables.net-rowgroup" version="1.5.2"/>
+            <dependency id="datatables.net-jqui" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -22,6 +22,10 @@
         <file src="js/rowGroup.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/rowGroup.jqueryui.min.js" target="content\Scripts"/>
         <file src="js/rowGroup.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/rowGroup.jqueryui.min.mjs" target="content\Scripts"/>
+        <file src="js/rowGroup.jqueryui.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/rowGroup.jqueryui.mjs" target="content\Scripts"/>
+        <file src="js/rowGroup.jqueryui.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/rowGroup.jqueryui.css" target="content\Content"/>
         <file src="css/rowGroup.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/rowGroup.jqueryui.min.css" target="content\Content"/>
