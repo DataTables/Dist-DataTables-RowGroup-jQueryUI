@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-rowgroup-jqui",
     "description": "RowGroup for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/rowGroup.jqueryui.js",
-    "module": "js/rowGroup.jqueryui.mjs",
-    "style": "css/rowGroup.jqueryui.css",
+    "main": "./js/rowGroup.jqueryui.js",
+    "module": "./js/rowGroup.jqueryui.mjs",
+    "style": "./css/rowGroup.jqueryui.css",
     "types": "./types/rowGroup.jqueryui.d.ts",
     "version": "2.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "RowGroup",
@@ -36,5 +35,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/RowGroup.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/rowGroup.jqueryui.d.ts",
+            "import": "./js/rowGroup.jqueryui.mjs",
+            "default": "./js/rowGroup.jqueryui.mjs",
+            "require": "./js/rowGroup.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/rowGroup.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
