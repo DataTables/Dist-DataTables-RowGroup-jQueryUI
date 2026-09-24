@@ -39,9 +39,10 @@
     "exports": {
         ".": {
             "types": "./types/rowGroup.jqueryui.d.ts",
+            "style": "./css/rowGroup.jqueryui.css",
             "import": "./js/rowGroup.jqueryui.mjs",
-            "default": "./js/rowGroup.jqueryui.mjs",
-            "require": "./js/rowGroup.jqueryui.js"
+            "require": "./js/rowGroup.jqueryui.js",
+            "default": "./js/rowGroup.jqueryui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
